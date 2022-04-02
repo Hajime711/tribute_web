@@ -1,0 +1,51 @@
+img {
+    width: 200px;
+    height: 300px;
+    padding: 0.5px;
+    border: 2px solid coral;    
+}
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}
+body{
+    background-color:#14213d;
+}
+h1,h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.text{
+    text-align: left;
+    color: whitesmoke;
+    padding-left: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container-fluid{
+    background-color:#e5e5e5;
+}
+.heading{
+    color: #14213d;
+    padding: 10px 0 10px 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+.flex-container-content{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 1e;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {    
+    padding: 2px 16px;
+}
